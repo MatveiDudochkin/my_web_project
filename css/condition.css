@@ -1,0 +1,265 @@
+/* btn */
+
+.btn-style:hover {
+  background-color: var(--bg-hover);
+}
+
+.btn-style:focus {
+  outline: none;
+  background-color: var(--bg-hover);
+}
+
+.btn-style:active {
+  outline: none;
+  background-color: var(--active-color);
+}
+
+/* header */
+
+.nav__link:hover {
+  border-bottom: 2px solid var(--bg-btn);
+}
+
+.nav__link:focus-visible {
+  outline: none;
+  outline: 2px solid var(--bg-btn);
+  outline-offset: 3px;
+}
+
+.nav__link:active {
+  color: var(--active-color);
+  outline: none;
+  border-bottom: 2px solid var(--active-color);
+}
+
+.header__search:hover .header__svg {
+  stroke: var(--bg-btn);
+}
+
+.header__search:hover .header__rect {
+  fill: var(--bg-btn);
+}
+
+.header__search:focus-visible {
+  outline: none;
+  outline: 2px solid var(--bg-btn);
+  outline-offset: 4px 6px 6.5px 4px;
+}
+
+.header__search:active .header__rect {
+  outline: none;
+  fill: var(--active-color);
+}
+
+.header__search:active .header__svg {
+  outline: none;
+  stroke: var(--active-color);
+}
+
+/* how */
+
+.how__step:hover {
+  color: var(--bg-btn);
+}
+
+.how__step:focus-visible {
+  outline: none;
+  outline: 2px solid var(--bg-btn);
+  outline-offset: 3px;
+}
+
+.how__step:active {
+  color: var(--active-color);
+  outline: none;
+}
+
+.how__link:hover {
+  color: var(--bg-btn);
+}
+
+.how__link:focus-visible {
+  outline: none;
+  outline: 2px solid var(--bg-btn);
+  outline-offset: 5px;
+}
+
+.how__link:active {
+  outline: none;
+  color: var(--active-color);
+}
+
+.how__btn2:hover {
+  background-color: var(--bg-btn2);
+  color: var(--white-color);
+}
+
+.how__btn2:focus-visible {
+  outline: none;
+  border: none;
+  background-color: var(--bg-btn2);
+  color: var(--white-color);
+}
+
+.how__btn2:active {
+  outline: none;
+  color: var(--white-color);
+  background-color: var(--black-color);
+}
+
+.how__link-download:focus-visible {
+  border: none;
+  outline: none;
+}
+
+/* accordion */
+
+.accordion__item:hover svg {
+  fill: var(--bg-btn);
+}
+
+.accordion__item:focus .faq__svg {
+  fill: var(--bg-btn);
+}
+
+.accordion__item.is-active .faq__svg {
+  outline: none;
+  fill: var(--border-color);
+  transform: rotate(45deg);
+}
+
+.accordion__item:hover .faq__path {
+  fill: var(--white-color);
+}
+
+.accordion__item:focus .faq__path {
+  fill: var(--white-color);
+}
+
+.accordion__item:active .faq__path {
+  fill: var(--black-color);
+}
+
+.accordion__top:hover,
+.accordion__top:focus-within {
+  border-color: orange;
+  position: relative;
+  z-index: 1;
+}
+
+.accordion__btn:focus {
+  outline: none;
+  border: none;
+}
+
+.accordion__top:active {
+  border-color: #CACACA;
+  border-bottom: none;
+  position: relative;
+  z-index: 1;
+}
+
+.accordion__top:hover .accordion__second-title {
+  color: var(--bg-btn);
+}
+
+.accordion__top:focus-within h3 {
+  color: var(--bg-btn);
+}
+
+.accordion__top:focus-within svg {
+  fill: var(--bg-btn);
+}
+
+.accordion__top:focus-within .faq__path {
+  fill: var(--white-color);
+}
+
+.accordion__second-title:focus {
+  color: var(--bg-btn);
+}
+
+.accordion__second-title:active {
+  color: var(--black-color);
+}
+
+/* footer */
+
+.footer__link:hover {
+  color: var(--bg-btn);
+}
+
+.footer__link:focus-visible {
+  outline: none;
+  outline: 2px solid var(--bg-btn);
+  outline-offset: 5px;
+  width: max-content;
+}
+
+.footer__link:active {
+  color: var(--active-color);
+}
+
+.footer__svg:hover {
+  fill: var(--bg-btn);
+}
+
+.footer__link-svg:focus-visible {
+  outline: 2px solid var(--bg-btn);
+  outline-offset: 5px;
+}
+
+.footer__svg:active {
+  fill: var(--active-color);
+}
+
+.input-style:hover {
+  background-color: var(--bg-btn2);
+  color: var(--border-color);
+}
+
+.input-style:focus-visible {
+  outline: none;
+  background-color: var(--bg-btn2);
+  color: var(--border-color);
+}
+
+.input-style:active {
+  background-color: var(--bg-btn2);
+  color: var(--white-color);
+}
+
+.header__burger:focus-visible {
+  outline: 2px solid var(--active-color);
+  outline-offset: 5px;
+}
+
+.header__burger:active .header__burger-line {
+  background-color: var(--active-color);
+}
+
+.header__burger:focus-visible.header__burger-line {
+  background-color: var(--black-color);
+  outline: none;
+  border: none;
+}
+
+.form-close:hover svg {
+  stroke: var(--bg-btn);
+}
+
+.form-close:hover .rect__svg {
+  fill: var(--bg-btn);
+}
+
+.form-close:focus-visible {
+  outline: 2px solid var(--active-color);
+  outline-offset: 4px;
+}
+
+.form-close:active svg {
+  stroke: var(--black-color);
+}
+
+.form-close:active .rect__svg {
+  fill: var(--black-color);
+}
